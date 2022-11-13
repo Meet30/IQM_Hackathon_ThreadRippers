@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/comfortaa');
+body{
+    background: #B9E0FF;
+
+    font-family: 'Comfortaa',sans-serif;
+}
+
+.topBar h1{
+    color: #354259;
+    font-size: 29px;
+}
+
+.navbar{
+    background: #8D72E1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+}
+
+li a{
+    color: #FAF3F3;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 2px;
+    transition: .5s linear;
+    font-size: 17px;
+}
+
+li a:hover{
+  background: rgba(0, 0, 0, 0.3);
+    color: #222831;
+    border-radius: 50px;
+}
+
+.topBar .toggle{
+    display: none;
+}
+
+#container-login{
+    background-color: #8D9EFF;
+      padding: 60px;
+      position: relative;
+      top: 20%;
+      margin:auto ;
+      margin-top: 90px;
+      width: 400px;
+      height: auto;
+      border-radius: 0.35em;
+      box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.9);
+      text-align: center;
+}
+
+label{
+    padding: 15px;
+}
+
+.submit{
+    text-align: center;
+    background: #6C4AB6;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+
+  color: black;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  /* margin-left: 50px; */
+  width: 100px;
+}
+
+.header{
+    font-family: 'Rockwell', sans-serif;
+
+    font-size: 20px;
+    /* margin: 10px; */
+    /* padding-bottom: 5px; */
+}
+
+.box{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 300px; margin: auto;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.form-footer div {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+#display-area{
+    background-color: #ffffffb9;
+    padding: 5% 20%;
+    border-radius: 2px solid black;
+    top: 10px;
+    margin:1px;
+    margin-top: 80px;
+    width: auto;
+    height: auto;
+    border-radius: 0.35em;
+    font-size: 300%;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.area1{
+    text-align: center;
+    align-items: center;
+    margin: 10% 10%;
+    height: auto;
+}
+
+
+.form-footer div {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .button:hover {
+    background-color: #555;
+  }
+
+  .card{
+    color: white;
+    background-color: #8D72E1;
+    margin-top: 40%;
+    width: 350px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  #contact-body{
+    line-height: 180%;
+  }
+
+  #team-name{
+    font-family: 'Comfortaa';
+    color: white;
+  }
